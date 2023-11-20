@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "#include \"main.h\"\n#include <stdio.h>\n\n/**\n* main - Entry point\n*\n* @argc: Number of argumnets\n* @argv: Array of arguments\n*\n* Return: Always 0 (Success)\n*/\nint main(int argc, char **argv)\n{}" > $@ && vim $@
